@@ -1,0 +1,43 @@
+.sidebar{ 
+    position: fixed;
+    left: 0px;
+    top: 60px;
+    bottom: 0px;
+    background-color: white;
+    width: 85px;
+    border-right-color:rgb(223, 221, 216) ;
+    border-right-style: solid;
+    border-right-width: 1px;
+    z-index: 10;
+}
+.homebar{
+    height: 50px;
+    width: 80px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 5px;
+    padding-bottom: 30px;
+     
+}
+.homebar:hover{
+    background-color: rgb(230, 226, 226);
+}
+.homesidebar{
+
+    height: 25px;
+    width: 70px;
+    margin-top: 30px;
+}
+.sidehome{
+
+    font-size: 10px;
+    font-family: roboto,arial;
+}
+ .homebar-link div{
+    font-family: roboto,arial;
+     
+ }
